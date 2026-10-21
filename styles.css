@@ -1104,27 +1104,27 @@ h3 {
 }
 
 .art-valorant {
-    background: linear-gradient(135deg, #fa5366, #85243f 58%, #171629)
+    background-image:url("images/valorant.png")
 }
 
 .art-fortnite {
-    background: linear-gradient(140deg, #4ac9e8, #3167ba 48%, #322452)
+    background-image:url("images/fortnite.png")
 }
 
 .art-overwatch {
-    background: radial-gradient(circle at 50% 40%, #ffd283, #a35c3b 50%, #20263b)
+    background-image:url("images/overwatch.png")
 }
 
 .art-marvel {
-    background: linear-gradient(135deg, #a52c42, #57172e 60%, #151b2a)
+    background-image:url("images/marvel.png")
 }
 
 .art-rocket {
-    background: radial-gradient(circle at 50% 35%, #4cddff, #166b9c 50%, #132344)
+    background-image:url("images/rocket.png")
 }
 
 .art-madden {
-    background: linear-gradient(140deg, #4c9966, #1e5941 55%, #142b29)
+    background-image:url("images/madden.png")
 }
 
 .game-info {
