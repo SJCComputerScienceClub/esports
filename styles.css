@@ -1096,12 +1096,11 @@ h3 {
 }
 
 .art-smash {
-    background: radial-gradient(circle at 50% 45%, #53b9f2, #1b4b83 56%, #101d39);
     background-image:url("smash.png")
 }
 
 .art-kart {
-    background: radial-gradient(circle at 35% 35%, #ffd55c, #db5234 52%, #54233d)
+    background-image:url("images/mariokart.png")
 }
 
 .art-valorant {
