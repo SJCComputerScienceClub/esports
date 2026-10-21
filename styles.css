@@ -1049,7 +1049,7 @@ h3 {
 .game-art {
     position: relative;
     display: flex;
-    min-height: 2000px;
+    min-height: 200px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
@@ -1096,35 +1096,43 @@ h3 {
 }
 
 .art-smash {
-    background-image:url("smash.png")
+    background-image:url("smash.png");
+    background-repeat: no-repeat;
 }
 
 .art-kart {
-    background-image:url("images/mariokart.png")
+    background-image:url("images/mariokart.png");
+    background-repeat: no-repeat;
 }
 
 .art-valorant {
-    background-image:url("images/valorant.png")
+    background-image:url("images/valorant.png");
+    background-repeat: no-repeat;
 }
 
 .art-fortnite {
-    background-image:url("images/fortnite.png")
+    background-image:url("images/fortnite.png");
+    background-repeat: no-repeat;
 }
 
 .art-overwatch {
-    background-image:url("images/overwatch.png")
+    background-image:url("images/overwatch.png");
+    background-repeat: no-repeat;
 }
 
 .art-marvel {
-    background-image:url("images/marvel.png")
+    background-image:url("images/marvel.png");
+    background-repeat: no-repeat;
 }
 
 .art-rocket {
-    background-image:url("images/rocket.png")
+    background-image:url("images/rocket.png");
+    background-repeat: no-repeat;
 }
 
 .art-madden {
-    background-image:url("images/madden.png")
+    background-image:url("images/madden.png");
+    background-repeat: no-repeat;
 }
 
 .game-info {
