@@ -1028,6 +1028,7 @@ h3 {
 .game-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    place-items: center;
     gap: 15px
 }
 
