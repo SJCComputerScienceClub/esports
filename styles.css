@@ -1790,3 +1790,20 @@ h3 {
         animation-iteration-count: 1 !important
     }
 }
+
+/* SJC Racers artwork inside the existing monitor */
+.monitor-screen {
+    position: relative;
+    overflow: hidden;
+    background: #050b15;
+}
+
+.monitor-game-image {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
