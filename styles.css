@@ -1807,3 +1807,126 @@ h3 {
     object-fit: cover;
     object-position: center;
 }
+
+/* =========================================
+   SJC READY PLAYER ONE - TV SCREEN
+   Replaces the old monitor, console,
+   and controllers with one large TV.
+   ========================================= */
+
+.gaming-scene {
+  right: 2%;
+  top: 9%;
+  width: 55%;
+  height: 82%;
+  perspective: none;
+}
+
+.tv-frame {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  width: 94%;
+  aspect-ratio: 16 / 9;
+  padding: 10px;
+  overflow: hidden;
+
+  border: 3px solid #33465f;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #344760, #080d17 45%, #1c2d46);
+
+  box-shadow:
+    0 0 0 2px #28cfff33,
+    0 0 30px #087eff40,
+    0 22px 45px #000a;
+}
+
+.tv-screen {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #8deaff66;
+  border-radius: 5px;
+  background: #07101e;
+}
+
+.tv-screen img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.tv-chin {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  left: 10px;
+
+  display: flex;
+  height: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+
+  color: #a8c5e1;
+  font-family: "Orbitron", sans-serif;
+  font-size: 6px;
+  letter-spacing: 0.15em;
+}
+
+.tv-light {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #28cfff;
+  box-shadow: 0 0 8px #28cfff;
+}
+
+.tv-glow {
+  position: absolute;
+  z-index: -1;
+  top: 8%;
+  right: 0;
+  width: 100%;
+  height: 75%;
+  border-radius: 50%;
+  background: #087eff16;
+  filter: blur(35px);
+  pointer-events: none;
+}
+
+/* Hide the old monitor and gaming accessories. */
+.monitor-frame,
+.monitor-stand,
+.monitor-base,
+.game-console,
+.gamepad,
+.scene-glow {
+  display: none !important;
+}
+
+/* Keep the TV from crowding the hero text on small screens. */
+@media (max-width: 760px) {
+  .gaming-scene {
+    top: auto;
+    right: 5%;
+    bottom: 7%;
+    width: 90%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    opacity: 0.3;
+  }
+
+  .tv-frame {
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .intro-content {
+    z-index: 2;
+  }
+}
+
