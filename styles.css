@@ -291,7 +291,7 @@ h3 {
 .intro-section {
     position: relative;
     display: flex;
-    min-height: 490px;
+    min-height: 600px;
     align-items: center;
     overflow: hidden;
     border-bottom: 1px solid #254563;
